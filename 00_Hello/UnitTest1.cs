@@ -3,6 +3,13 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace _00_Hello
 {
+    internal class Intro
+    {
+        public string Hello()
+        {
+            return "Hello";
+        }
+    }
     [TestClass]
     public class UnitTest1
     {
